@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TriviaDoc</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  <h1 id="nombreRecibido"></h1>
+  <h2>¿Que quieres jugar hoy?</h2>
+  <button onclick="location.href='anatomia.html'" type="button">ANATOMÍA</button>   
+  <button onclick="location.href='patologia.html'" type="button">PATOLOGÍA</button>   
+  <br>
+ <script src="script.js"></script> 
+ <script>
+      function load() {
+        var parametro = window.location.search;
+        console.log('parametro', parametro);
+        var parametroFormateado = parametro.substring(1);
+        console.log('param fomat', parametroFormateado)
+        var nombre = parametroFormateado.split("=");
+        console.log('nombre', nombre)
+        document.getElementById("nombreRecibido").innerText = "¡Hola " + nombre[1] + "!";       
+      }
+      window.onload = load;
+    </script>
+</body>
+</html>

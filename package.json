@@ -1,0 +1,27 @@
+{
+  "name": "triviadoc",
+  "version": "1.0.0",
+  "description": "trivia",
+  "main": "src/index.html",
+  "scripts": {
+    "htmlhint": "htmlhint src/*.html test/*.html",
+    "test": "jest",
+    "start": "serve src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayrenejose/triviaDoc.git"
+  },
+  "keywords": [
+    "trivia"
+  ],
+  "author": "mayrene mora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayrenejose/triviaDoc/issues"
+  },
+  "homepage": "https://github.com/Mayrenejose/triviaDoc#readme",
+  "dependencies": {
+    "serve": "^11.0.0"
+  }
+}

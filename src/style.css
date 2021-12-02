@@ -1,0 +1,43 @@
+body{
+    margin: 10%;
+  background-image:url(https://previews.123rf.com/images/elenavdovina/elenavdovina1706/elenavdovina170600002/79467667-medicina-fondo-de-color-transparente-azul-vector-iconos-de-color-de-los-servicios-m%C3%A9dicos-y-las-herram.jpg);
+  }
+  h1{
+    font-size: 450%;
+    margin: 5%;
+    color:#000000;
+  font-family: 'Indie Flower', cursiva;
+  text-align: center
+  }
+  h2{
+    font-size: 250%;
+    margin: 5%;
+    color:#000000;
+  font-family: 'Indie Flower', cursiva;
+  text-align: center
+  }
+  p{
+    font-size: 150%;
+    font-family: 'Indie Flower', cursiva;
+    text-align: justify
+  }
+  .centrado{
+    display:block;
+  margin:auto;
+  }
+  h3{
+    font-size: 150%;
+    text-align: center;
+    font-family: 'Indie Flower', cursiva;
+  }
+  
+  .boton1{
+    display: block;
+    border: 0px solid gray;
+    width: 200px;
+    height: 40px ;
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+    background-color: #2E86C1;
+  }
